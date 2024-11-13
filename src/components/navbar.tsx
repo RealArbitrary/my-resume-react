@@ -32,9 +32,6 @@ function BasicExample() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        <Navbar.Brand>
-        <img src="./assets/KratosFace.png" className="DeWetFace" alt="logo" />
-        </Navbar.Brand>
       </Container>
     </Navbar>
   );
