@@ -2,13 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Logo from '../images/DeWetFace.png';
 
-function BasicExample() {
+function NavbarDarkTheme() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar bg="dark" data-bs-theme="dark" fixed="top">
       <Container>
         <Navbar.Brand href="#home">
-          Home
+        <img src={Logo} className='DeWetFace' alt="ohno"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -37,4 +38,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default NavbarDarkTheme;

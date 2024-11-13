@@ -1,17 +1,16 @@
 import './App.css';
-import NavBar from './components/navbar';
+import HeaderNavbar from './components/HeaderNavbar';
+import Generalinfo from './components/Generalinfo';
+import FooterNavbar from './components/FooterNavbar';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <NavBar/>
-      </div>
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
+    <div>
+        <HeaderNavbar/>
+        
+        <Generalinfo/>
+      
+        <FooterNavbar/>
     </div>
   );
 }

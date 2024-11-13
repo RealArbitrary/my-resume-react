@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.DeWetFace{
+  height: 40px;
+  border-radius: 50%;
+}
